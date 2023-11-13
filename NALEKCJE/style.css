@@ -1,0 +1,68 @@
+body {
+  background-color: rgba(241, 236, 196, 1);
+  
+
+}
+
+
+
+/* naglowek */
+.header {
+  background-color: #f0d6ad;
+  text-shadow: 4px 8px 16px rgba(148, 149, 165, 1);
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* linki na gorze*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+/* kolumny */
+
+/* Lewa */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Prawa */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* efekt tak jakby karty? */
+.card {
+  background-color: white;
+  padding: 100px;
+  margin-top: 20px;
+}
